@@ -3,14 +3,17 @@ var express = require('express');
 var mysql = require('mysql');
 var app = express();
 
-    app.get('/', (req, res) => {
+    app.get('/getTeste', (req, res) => {
         res.send('Hello world!');
-        var conn = mysql.createConnection({
-            host: localhost,
-            database: mix,
-            password:''
-        });
-        conn.createQuery('', ) // query sql
+    });
+    app.post('/postTeste', (req, res) => {
+        res.send('Got a POST request');
+    });
+    app.put('/putTeste', (req, res) => {
+        res.send('Got a PUT request');
+    });
+    app.delete('/deleteTeste', (req, res) => {
+        res.send('Got a DELETE request');
     });
 
     app.listen(3000, () => {
