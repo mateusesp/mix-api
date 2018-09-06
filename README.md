@@ -4,4 +4,4 @@ NodeJS Express
 # Steps
 - npm install nodemon -g
 # Run
-- nodemon --inspect app.js
+- nodemon --inspect app.js or nodemon --inspect
