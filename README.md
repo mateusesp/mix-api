@@ -1,6 +1,7 @@
 # mix-api
 NodeJS Express
-#Steps
+
+# Steps
 - npm install nodemon -g
 - npm install mysql
 # Run
