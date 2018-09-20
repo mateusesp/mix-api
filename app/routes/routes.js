@@ -10,7 +10,6 @@ router.get('/servicos', (req, res) => {
         let json = JSON.parse(JSON.stringify(result));
         console.dir(json);
     })
-    database.close();
 });
 
 exports.router = router;
