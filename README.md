@@ -2,9 +2,10 @@
 NodeJS Express
 
 # SQL
-- Rodar script com o SQL do banco de dados
+- Run script .sql of database
 
 # Steps
 - npm install nodemon -g
+
 # Run
 - nodemon --inspect app.js or nodemon --inspect
